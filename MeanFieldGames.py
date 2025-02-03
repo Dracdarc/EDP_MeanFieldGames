@@ -11,14 +11,19 @@ import scipy.stats as stats
 
 
 
-
 class MFG:
 
     """
         Description
     """
 
-    def __init__(self, parameters: any) -> None:
+    def __init__(
+            self, 
+            c0: float,
+            c1: float,
+            alpha: float,
+            beta: float
+    ) -> None:
         pass
 
 
