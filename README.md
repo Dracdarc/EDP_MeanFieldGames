@@ -9,14 +9,14 @@ This project explores numerical solutions of a Mean Field problem with congestio
 - Visualizations: Contour plots and animations of solutions.
 
 ## Requirements
-- Python libraries: `numpy`, `matplotlib`, `scipy`, `tqdm`.
+- Python libraries: `numpy`, `matplotlib`, `scipy`, `tqdm`, `pandas`, `seaborn`.
 - Video framework: `ffmpeg` enables to produce `.mp4` videos, see [this documentation](https://example.com) for set up.
 
 ## Running the Simulation
 Open the file [notebook.ipynb](notebook.ipynb) and follow these steps:
 1. Set up parameters and run the solver using `MF_solver`.
 2. Visualize the results with `contour_plot` and `evolution_video`.
-3. By default, all configurations will be run and numerical results and videos are automatically saved in the [results](results/) folder.
+3. All configurations can be automatically run (uncomment the corresponding cells) and numerical results, videos, and algorithms statistics are directly saved in the [results](results/) and [statistics](statistics/) folder.
 
 ## To go Further
 Look at the [report](report.pdf) for a detailed description of the problem and numerical methods.
