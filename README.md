@@ -1,7 +1,7 @@
 # Project: Mean Field Game with Congestion Effects
 
 ## Overview
-This project explores numerical solutions of a Mean Field problem with congestion effects (see the [subject](subject.pdf) for more details). Using finite difference schemes, we solve forward-backward PDE systems to characterize optimal strategies of agents.
+This project explores numerical solutions of a Mean Field problem with congestion effects (see the [subject](subject.pdf) for more details). Using finite difference schemes, we solve forward-backward PDE systems to characterize optimal strategies of agents. A short summary of our work, used for the final presentation, is available in the file [slides](slides.pdf).
 
 ## Features
 - Implementation of finite-difference schemes for HJB and KFP equations.
